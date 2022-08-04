@@ -11,3 +11,5 @@
 ---
 
 ![photo_2022-08-04_18-58-08](https://user-images.githubusercontent.com/108235776/182873161-0eda0285-c45b-4238-91ed-199f1e70491b.jpg)
+
+*skin detection*
