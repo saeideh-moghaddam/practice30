@@ -1,9 +1,8 @@
+import numpy as np
 import cv2
 import keyboard
-import numpy as np
 
 video_cap = cv2.VideoCapture(0)
-
 frame_width, frame_height = int(video_cap.get(3)), int(video_cap.get(4))
 
 def skin_Detection(frame):
