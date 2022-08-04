@@ -5,8 +5,6 @@ import numpy as np
 video_cap = cv2.VideoCapture(0)
 
 frame_width, frame_height = int(video_cap.get(3)), int(video_cap.get(4))
-fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-frame_rate = 20
 
 def skin_Detection(frame):
     frame_HSV = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
