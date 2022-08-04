@@ -5,8 +5,7 @@ import numpy as np
 video_cap = cv2.VideoCapture(0)
 
 frame_width, frame_height = int(video_cap.get(3)), int(video_cap.get(4))
-size = (frame_width, frame_height)
-fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+fourcc = cv2.VideoWriter_fourcc(*"mp4v")
 frame_rate = 20
 
 def skin_Detection(frame):
